@@ -19,7 +19,7 @@ export default function UserNav() {
         <Button variant="ghost" className="relative h-10 w-10 rounded-sm">
           <Avatar className="h-10 w-10 rounded-sm">
             <AvatarImage src="https://rsrhyxfublmjpcjcfcis.supabase.co/storage/v1/object/public/user%20image/avatar.png" />
-            <AvatarFallback className="rounded-sm">Jan</AvatarFallback>
+            <AvatarFallback className="rounded-sm">User</AvatarFallback>
           </Avatar>
         </Button>
       </DropdownMenuTrigger>
@@ -27,10 +27,7 @@ export default function UserNav() {
       <DropdownMenuContent className="w-56" align="end" forceMount>
         <DropdownMenuLabel>
           <div className="flex flex-col space-y-1">
-            <p className="text-sm font-medium leading-none">Jan</p>
-            <p className="text-xs leading-none text-muted-foreground">
-              jkasdf@asdkfj.com
-            </p>
+            <p className="text-sm font-medium leading-none">User Profile</p>
           </div>
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
